@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7882038052477306978}
   - component: {fileID: 5370094577566186664}
   m_Layer: 0
-  m_Name: 30degrees
+  m_Name: PlatformSegment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
