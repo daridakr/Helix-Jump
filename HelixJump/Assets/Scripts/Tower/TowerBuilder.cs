@@ -6,7 +6,7 @@ public class TowerBuilder : MonoBehaviour
     [SerializeField] private int _levelCount;
     [SerializeField] private float _topAdditionalScale;
 
-    [SerializeField] private StartPlatform _startPlatform;
+    [SerializeField] private SpawnPlatform _startPlatform;
     [SerializeField] private FinishPlatform _finishPlatform;
     [SerializeField] private Platform[] _platforms;
 
