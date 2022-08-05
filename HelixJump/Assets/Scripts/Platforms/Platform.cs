@@ -7,10 +7,13 @@ public class Platform : MonoBehaviour
 
     private PlatformSegment[] _segments;
 
-    public void Break()
+    private void Start()
     {
         _segments = GetComponentsInChildren<PlatformSegment>();
+    }
 
+    public void Break()
+    {
         foreach (PlatformSegment segment in _segments)
         {
             segment.Bounce(_bounceForce, transform.position, _bounceRadius);
