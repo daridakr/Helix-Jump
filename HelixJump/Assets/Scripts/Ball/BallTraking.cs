@@ -36,7 +36,7 @@ public class BallTraking : MonoBehaviour
         _observPosition -= viewDirection * _length;
 
         transform.position = _observPosition;
-        transform.LookAt(_ball.transform);
+        transform.LookAt(_ball.transform.position);
     }
 
     private Vector3 GetViewDirection(Vector3 towerPosition, Vector3 ballPosition)

@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class TowerBuilder : MonoBehaviour
 {
-    [SerializeField] private GameObject _tower;
+    [SerializeField] private Tower _tower;
     [SerializeField] private int _levelCount;
     [SerializeField] private float _topAdditionalScale;
-
     [SerializeField] private SpawnPlatform _startPlatform;
     [SerializeField] private FinishPlatform _finishPlatform;
     [SerializeField] private Platform[] _platforms;
@@ -22,7 +21,7 @@ public class TowerBuilder : MonoBehaviour
 
     private void Build()
     {
-        GameObject tower = Instantiate(_tower, parent: transform);
+        Tower tower = Instantiate(_tower, parent: transform);
         tower.transform.localScale = new Vector3(1, TowerScaleY, 1);
 
         Vector3 spawnPosition = tower.transform.position;
