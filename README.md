@@ -27,7 +27,7 @@ Cloning the gameplay mechanics of the popular mobile game **Helix Jump**.
 
 <br>
 
-## Components description
+## Description of components
 
 There are three main game components - a **[ball](https://github.com/daridakr/Helix-Jump/blob/main/HelixJump/Assets/Scripts/Ball/Ball.cs)**, a **[platform](https://github.com/daridakr/Helix-Jump/blob/main/HelixJump/Assets/Scripts/Platforms/Platform.cs)** and a **[tower](https://github.com/daridakr/Helix-Jump/blob/main/HelixJump/Assets/Scripts/Tower/Tower.cs)**.
 
@@ -39,7 +39,7 @@ There are three types of platforms - **platform**, **finish platform** and **[sp
 
 <br>
 
-## Demo
+## Demonstration
 
 <img src="readme_assets/demo.gif" />
 
